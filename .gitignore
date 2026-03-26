@@ -1,0 +1,51 @@
+### Java ###
+*.class
+*.log
+*.ctxt
+*.jar
+*.war
+*.ear
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# Not: .mvn/wrapper/maven-wrapper.jar bilerek gizlenmez ki 
+# projeni indirenler kendi bilgisayarlarına Maven kurmak zorunda kalmasın.
+
+### STS / Eclipse (Senin kullandığın ortam) ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.extdoc
+bin/
+.metadata/
+.recommenders/
+
+### IntelliJ IDEA (Başkaları projeni bu IDE ile açarsa diye) ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+### VS Code (Alternatif editörler için) ###
+.vscode/
+
+### İşletim Sistemi Dosyaları ###
+.DS_Store
+Thumbs.db
+ehthumbs.db
+$RECYCLE.BIN/
+
+### Spring Boot ###
+HELP.md
