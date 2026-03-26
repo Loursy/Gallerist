@@ -1,6 +1,6 @@
 # 🚗 Gallerist - Güvenli Araç Galerisi REST API
 
-Gallerist, araç galerileri için geliştirilmiş kapsamlı, ölçeklenebilir ve güvenli bir arka uç (backend) yönetim sistemidir. Temel e-ticaret ve stok yönetimi dinamiklerini barındıran bu sistem, JWT entegrasyonu ile uç noktalarını (endpoints) güvence altına alırken, dış sistem entegrasyonlarıyla (TCMB) gerçek dünya finansal verilerini işler.
+Gallerist, araç galerileri için geliştirilmiş kapsamlı, ölçeklenebilir ve güvenli bir backend yönetim sistemidir. Temel e-ticaret ve stok yönetimi dinamiklerini barındıran bu sistem, JWT entegrasyonu ile uç noktalarını (endpoints) güvence altına alırken, dış sistem entegrasyonlarıyla (TCMB) gerçek dünya finansal verilerini işler.
 
 ## ✨ Öne Çıkan Özellikler
 
