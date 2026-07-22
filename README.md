@@ -8,6 +8,7 @@ A backend REST API for managing a car dealership's vehicle inventory and sales o
 - **Sales processing** — record and track vehicle sales transactions
 - **Real-time currency conversion** — dynamically converts prices between TRY and USD using a live exchange rate source
 - **JWT authentication** — secured endpoints with token-based auth and role-based access control
+- **Docker Integration** — fully containerized application and database environment using Docker Compose
 - **Automated tests** — unit/integration test coverage for core business logic
 
 ## Tech Stack
@@ -19,6 +20,7 @@ A backend REST API for managing a car dealership's vehicle inventory and sales o
 | Security | Spring Security + JWT |
 | Data Access | Spring Data JPA / Hibernate |
 | Database | PostgreSQL |
+| Containerization | Docker & Docker Compose |
 | Build Tool | Maven |
 | Testing | JUnit |
 
@@ -50,45 +52,14 @@ The project follows a layered architecture:
 
 ### Prerequisites
 
-- Java 17+
-- Maven
-- PostgreSQL instance running locally or remotely
+- [Docker Engine](https://docs.docker.com/get-docker/) & [Docker Compose](https://docs.docker.com/compose/install/)
+- *(Optional for local development)* Java 17+ & Maven
 
-### Setup
+### Run with Docker (Recommended)
 
-```bash
-git clone https://github.com/Loursy/Gallerist.git
-cd Gallerist
-```
+You don't need to install Java or PostgreSQL locally. You can spin up both the application and the PostgreSQL database with a single command:
 
-Configure your database connection in `application.properties` / `application.yml`:
-
-```properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/gallerist
-spring.datasource.username=your_username
-spring.datasource.password=your_password
-```
-
-Run the project:
-
-```bash
-mvn spring-boot:run
-```
-
-### Running Tests
-
-```bash
-mvn test
-```
-
-## Roadmap / Possible Improvements
-
-- [ ] Containerize the application with Docker for easier deployment
-- [ ] Add CI pipeline (GitHub Actions) for automated build and test on push
-- [ ] Add Swagger/OpenAPI documentation for the REST endpoints
-- [ ] Deploy a live demo instance
-
-## Author
-
-**Atakan Ünsever**
-[LinkedIn](https://www.linkedin.com/in/atakan-ünsever-327904257/) · [GitHub](https://github.com/Loursy)
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/Loursy/Gallerist.git](https://github.com/Loursy/Gallerist.git)
+   cd Gallerist
